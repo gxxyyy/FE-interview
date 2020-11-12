@@ -432,7 +432,7 @@ Content-Type: text/html; charset=iso-8859-1
 13. **[attr|=value]**：选择属性值刚好为 value 或者 value-开头的元素
 14. **[attr^=value]**：选择属性值以 value 开头的元素
 15. **[attr$=value]**：选择属性值以 value 结尾的元素
-16. **[attr*=value]**：选择属性值中包含 value 的元素
+16. **[attr\*=value]**：选择属性值中包含 value 的元素
 17. **[:checked]**：选择单选框，复选框，下拉框中选中状态下的元素，兼容性：IE9+
 18. **X:after, X::after**：after 伪元素，选择元素虚拟子元素（元素的最后一个子元素），CSS3 中::表示伪元素。兼容性:after 为 IE8+，::after 为 IE9+
 19. **:hover**：鼠标移入状态的元素，兼容性 a 标签 IE4+， 所有元素 IE7+
